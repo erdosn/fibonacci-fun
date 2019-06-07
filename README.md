@@ -114,7 +114,7 @@ plt.scatter(range(len(ratios)), ratios, label='ratios', s=100, zorder=2, c=np.ar
 plt.hlines(y=phi, xmin=0, xmax=30, linewidth=2, colors='r', label='phi = 1.618...', zorder=2)
 plt.legend()
 plt.ylabel("ratios")
-plt.title("convergence to phi\n of ratios from a different fibonacci sequence\n3, 52, 55, 107, 162, ...")
+plt.title("convergence to phi\n of ratios from rafael sequence\n3, 14, 17, 31, ...")
 plt.show()
 ```
 
